@@ -1,14 +1,14 @@
-Instagram Video Downloader and Uploader
+## Instagram Video Downloader and Uploader
 
-Overview
+# Overview
 This project allows you to download Instagram Reels videos based on a search keyword and upload them to the SocialVerse platform. It leverages Selenium WebDriver for browser automation, Instaloader for Instagram video download, and the SocialVerse API for video upload.
 
-Features
+# Features
 Search and Download Instagram Reels Videos: Allows users to search Instagram videos based on a keyword and download them.
 Upload to SocialVerse: Automatically uploads the downloaded videos to SocialVerse using an API token.
 Customizable: You can modify search terms, video limits, and upload categories to fit your needs.
-Prerequisites
-Before you start, ensure you have the following:
+## Prerequisites
+### Before you start, ensure you have the following:
 
 Python 3.7+: Download Python
 Google Chrome: Download Chrome
@@ -18,7 +18,7 @@ Step 1: Clone the Repository
 If you haven’t already cloned the repository, you can do so with the following command:
 
 bash
-Copy code
+### Copy code
 git clone <repository-url>
 cd <repository-directory>
 Step 2: Set Up a Virtual Environment
@@ -50,10 +50,10 @@ pip install selenium instaloader requests webdriver-manager
 Step 4: Install Google Chrome and WebDriver
 Ensure Google Chrome is installed on your machine.
 
-WebDriver Installation:
+### WebDriver Installation:
 The script uses webdriver-manager to automatically download the correct version of Chrome WebDriver, so manual installation is not required. However, ensure that your Chrome version is up-to-date for compatibility.
 
-Configuration
+### Configuration
 Step 1: Set Up SocialVerse Flic Token
 You need a Flic Token to authenticate video uploads to SocialVerse.
 
@@ -63,7 +63,7 @@ You can either:
 
 Use an environment variable:
 
-On Windows:
+## On Windows:
 
 bash
 Copy code
